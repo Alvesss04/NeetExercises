@@ -21,9 +21,6 @@ public class TwoSum {
             if (verifiedNum.containsKey(looknum)) System.out.println(currentNum + " + " + looknum + " = " + target);
 
             verifiedNum.put(currentNum, true);
-
         }
-
     }
-
 }
