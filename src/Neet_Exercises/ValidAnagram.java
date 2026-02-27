@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class ValidAnagram {
-    public static void main(String[] args) throws IOException {
+    static void main(String[] args) throws IOException {
       BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
       String a = in.readLine();
       String b = in.readLine();
